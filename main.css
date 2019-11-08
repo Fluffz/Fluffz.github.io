@@ -1,13 +1,13 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
-<link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
-body {
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web&display=swap");
+body, html{
   margin: 0;
     padding: 0;
   /*font styles*/
   font-family: titillium Web, sans-serif;
   /*background styles*/
-  background: linear-gradient (120deg,#9c88ff,#00a8ff);
+  background-image: linear-gradient (120deg, #9c88ff, #00a8ff);
   background-size: cover;
 }
 h1{
