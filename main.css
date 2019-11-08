@@ -33,7 +33,7 @@ body, html{
 }
 .animate {
   /*animation*/
-  animate fade-in 2s;
+  animate fade-in 2s 200ms;
 }
 @keyframes fade-in{
   0% (opacity: 1;)
