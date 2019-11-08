@@ -10,13 +10,22 @@ body, html{
   background: linear-gradient(120deg, #9c88ff, #00a8ff);
   background-size: cover;
 }
-h1{
+.s1{
+   margin: 0;
+    padding: 0;
+  /*font styles*/
+  font-family: titillium Web, sans-serif;
+  /*background styles*/
+  background: linear-gradient(120deg, #9c88ff, #00a8ff);
+  background-size: cover;
+}
+.s1 h1{
 /*text settings*/
   text-align: center;
   font-size: 90px;
   font-color: #f5f6fa;
 }
-h2{
+.s1 h2{
   /*text settings*/
   text-align: center;
   font-size: 86px;
