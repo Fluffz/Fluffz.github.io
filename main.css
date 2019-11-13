@@ -13,11 +13,15 @@ body, html{
 .s1{
    margin: 0;
     padding: 0;
+  width: auto;
+  height: 100%;
   /*font styles*/
   font-family: titillium Web, sans-serif;
   /*background styles*/
   background: linear-gradient(120deg, #9c88ff, #00a8ff);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .s1 h1{
 /*text settings*/
@@ -33,7 +37,7 @@ body, html{
 }
 .animate {
   /*animation*/
-  animate fade-in 2s 200ms;
+  animation: fade-in 2s 200ms;
 }
 @keyframes fade-in{
   0% (opacity: 1;)
