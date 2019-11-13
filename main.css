@@ -35,6 +35,9 @@ body, html{
   font-size: 86px;
   font-color: #f5f6fa;
 }
+.s1 img{
+  float: center;
+}
 .animate {
   /*animation*/
   animation: fade-in 2s 200ms;
